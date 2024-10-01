@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Garcia - Resume</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            font-family: Arial, sans-serif;
+            padding: 20px;     
+        } 
+        h1 {
+            color: #000000;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }  
+        .contact-info{
+            margin-bottom: 20px;
+        }
+        ul.skills{
+            list-style-type: none;
+            padding: 0;
+            margin-right: 0;
+        }
+        ul.skills li{
+            background-color: #e67e22;
+            color: white;
+            margin: 5px 0;
+            border-radius: 4px;
+            text-align: left;
+            padding: 5px;
+        }
+        .section-title{
+            font-size: 1.5em;
+            margin-top: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+        .section-content{
+            margin-bottom: 20px;
+        }
+        .project-list{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .project-list li{
+            margin-bottom: 10px;
+        }
+        
+        .shadowbox {
+            width: 21cm;
+            height: 29.7cm;
+            margin: 30mm 45mm 30mm 45mm;
+            border: 1px solid #333;
+            box-shadow: 8px 8px 5px #444;
+            padding: 48px 60px;
+            background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+            
+        }
+        
+        img {
+            float: right;
+        }
+        
+        #name {
+            display: inline;
+            font-size: large;
+            font-weight: bold;
+        }
+        
+        #contact {
+            display: inline;
+        }
+        
+        .row {
+            display: flex;
+            align-items: center;
+        }
+        
+        .column {
+            width: 60%;
+        }
+        
+        .column img {
+            width: 40%;
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="shadowbox">
+        <div class="row">
+            <div class="column">
+                <h1 id="name">Emmanuel Garcia</h1>
+            </div>
+            <div class="column">
+                <img src="me.jpg" width="150" height="105">
+            </div>
+        </div>
+        <div id="contact" class="contact-info">
+            <p><strong>Address:</strong> #1214 Tangelo, Belmopan</p>
+            <p><strong>Email:</strong> <a href="mailto:2024160412@ub.edu.bz">2024160412@ub.edu.bz</a></p>
+            <p><strong>Phone:</strong> (+501)633-9020</p>
+        </div>
+
+        <h2 class="section-title">Objective</h2>
+        <div class="section-content">
+            <p>I’m a student at the <a href="https://www.ub.edu.bz/">University of Belize</a>, working towards an associate's degree in IT. 
+                I aim to use my skills to contribute to tech projects and keep learning more about the field.</p>
+        </div>
+
+        <h2 class="section-title">Skills</h2>
+        <div class="section-content">
+            <ul class="skills">
+                <li>HTML</li>
+                <li>C++</li>
+                <li>PYTHON</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+        
+        <h2 class="section-title">Education</h2>
+        <div class="section-content">
+            <p><strong>University of Belize</strong>
+            - Associate's Degree in Information Technology (2024-Present)</p>
+        </div>
+
+        <h2 class="section-title">Projects</h2>
+        <div class="section-content">
+            <ul class="project-list">
+                <li>Created a basic website using HTML and CSS for a class project.</li>
+                <li>Worked on a Python script to analyze data for a self-project.</li>
+            </ul>
+        </div>
